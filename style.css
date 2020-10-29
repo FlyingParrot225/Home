@@ -2,8 +2,8 @@ body{
 	margin:0;
 	padding:0;
 }
-#container{
-	display:grid;
-	grid-template-rows:1fr 1fr 1fr 1fr 1fr;
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+
+#nav{
+	float:left;
+	text-align:center;
 }
