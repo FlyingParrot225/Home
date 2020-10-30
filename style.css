@@ -7,4 +7,15 @@ body{
 	background-color:gray;
 	float:left;
 	text-align:center;
+	width:100%;
+}
+.navSel{
+	padding:0 20px;
+	text-align:center;
+}
+.navSel:hover{
+
+}
+.dropdown{
+	display:none;
 }
