@@ -13,8 +13,8 @@ body{
 	padding:0 20px;
 	text-align:center;
 }
-.navSel:hover{
-
+.navSel:hover .dropdown{
+	display:block;
 }
 .dropdown{
 	display:none;
