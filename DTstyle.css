@@ -83,80 +83,18 @@ main {
     z-index: 1;
     overflow-y: scroll;
     padding: 5px;
+    padding-bottom: 10px;
 }
 
-.Transform3d {
-    transform: perspective(500px);
-}
-
-.RightRotate {
-    float: left;
-    margin: 30px 30px;
+.contentContainer {
     background-color: rgb(16, 67, 81);
-    transform: rotate3d(0.1, -0.5, -0.06, 50deg);
-    z-index: -2;
-    width: 500px;
-    padding: 5px;
-    height: 300px;
-    box-shadow: -10px 10px 25px black;
-    border-left: 30px solid rgb(6, 57, 71);
-    border-bottom: 10px solid rgb(0, 51, 65);
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    padding: 10px 0;
 }
 
-.LeftRotate {
-    float: right;
-    margin: 30px 30px;
-    background-color: rgb(16, 67, 81);
-    transform: rotate3d(0.1, 0.5, 0.06, 50deg);
-    z-index: -2;
-    width: 500px;
-    padding: 5px;
-    height: 300px;
-    box-shadow: 10px 10px 25px black;
-    border-right: 30px solid rgb(6, 57, 71);
-    border-bottom: 10px solid rgb(0, 51, 65);
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
-.fitContent {
+.hidden {
+    padding: 10px 0;
+    height: 100px;
     width: max-content;
-    height: max-content;
-    background-color: inherit;
-}
-
-.RightRotate .fitContent {
-    top: 0;
-    position: sticky;
-}
-
-.LeftRotate .fitContent {
-    top: 0;
-    position: sticky;
-}
-
-.HiddenRotateL {
-    float: left;
-    margin: 100px 30px;
-    background-color: rgb(26, 77, 91);
-    transform: rotate3d(0.1, 0.5, 0.06, 50deg);
-    z-index: -2;
-    width: 500px;
-    padding: 5px;
-    height: 20px;
-}
-
-.HiddenRotateR {
-    float: right;
-    margin: 100px 30px;
-    background-color: rgb(26, 77, 91);
-    transform: rotate3d(0.1, -0.5, 0.06, 50deg);
-    z-index: -2;
-    width: 500px;
-    padding: 5px;
-    height: 20px;
 }
 
 footer {
