@@ -91,6 +91,10 @@ main {
     padding: 10px 0;
 }
 
+.contentContainer a {
+    color: rgb(146, 197, 211);
+}
+
 .hidden {
     padding: 10px 0;
     height: 100px;
