@@ -17,7 +17,7 @@ body{
 
 nav {
     width: 100vw;
-    height: 60px;
+    height: 4em;
     background-color: rgb(6, 57, 71);
     position: sticky;
     top: 0;
@@ -30,15 +30,14 @@ nav h1 {
     margin: 0;
     padding: 0;
     float: left;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 2em;
+    padding-right: 4em;
     color: rgb(146, 197, 211);
-    line-height: 60px;
+    line-height: 2.5em;
 }
 
 .NavSel {
     float: left;
-    
     text-align: left;
 }
 
@@ -47,17 +46,17 @@ nav h1 {
 }
 
 .NavSel a {
-    line-height: 60px;
+    line-height: 4em;
     text-decoration: none;
     color: rgb(146, 197, 211);
-    padding: 20px 30px;
+    margin: 5em 2vw;
 }
 
 .dropdown {
     position: absolute;
     display: none;
     background-color: rgb(6, 57, 71);
-    min-width: 100px;
+    min-width: 2vw;
     text-align: left;
     border-radius: 0 0 10px 10px;
 }
